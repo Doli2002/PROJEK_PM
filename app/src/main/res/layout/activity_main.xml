@@ -6,23 +6,24 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
 
         <TextView
             android:text="Selamat Datang di Toko Baju!"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:padding="8dp"/>
 
         <ImageView
             android:id="@+id/imageProduct"
-            android:layout_width="match_parent"
+            android:layout_width="300dp"
             android:layout_height="200dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/sample_baju"/>
+            android:src="@drawable/sample_baju"
+            android:layout_marginTop="8dp"/>
 
         <TextView
             android:text="Baju Keren 2025"
@@ -35,20 +36,21 @@
         <TextView
             android:text="Desain terbaru dan bahan berkualitas."
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"/>
 
         <Button
             android:id="@+id/btnBeli"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Beli Sekarang"
-            android:layout_marginTop="12dp"/>
+            android:text="Beli"
+            android:layout_marginTop="8dp"/>
 
         <Button
             android:id="@+id/btnLogout"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Logout"
-            android:layout_marginTop="24dp"/>
+            android:layout_marginTop="16dp"/>
     </LinearLayout>
 </ScrollView>
